@@ -1,0 +1,78 @@
+!This is the code used by the compiler to generate a javascript canvas code file
+! !  indicates a comment
+! #  pound sign indicates a code block
+! $  dollar signs indicates a variable that may need to be replaced to avoid duplicated variables
+! "" empty parentheses indicates a value that needs to be set by compiler
+! empty lines will be skipped
+
+#onload
+<html lang="en">
+<head>
+</head>
+<body>
+<script>
+window.onload = function() {
+	var canvasId     = "";
+	var canvasName   = "";
+	var canvasWidth  = "";
+	var canvasHeight = "";
+	var canvas = document.createElement('canvas');
+	canvas.id  = canvasId;
+	canvas.setAttribute("height",canvasWidth);
+	canvas.setAttribute("width",canvasHeight);
+	document.body.appendChild(canvas);
+	var context = canvas.getContext('2d');
+
+!begin free draw code
+#moveContext
+	var x$ = "";
+	var y$ = "";
+	context.beginPath();
+	context.moveTo(x$,y$);
+#lineTo
+	var px$ = "";
+	var py$ = "";
+	context.lineTo(px$,py$);
+#stroke
+	var freeDrawStroke$ = "";
+	var freeDrawColor$  = "";
+	context.lineWidth = freeDrawStroke$;
+    context.strokeStyle = freeDrawColor$;
+	context.stroke();	
+!end free draw
+
+!begin circle
+#circle
+	var centerX$    = "";
+	var centerY$    = "";
+	var radius$     = "";
+	var cLineWidth$ = "";
+	var cColor$     = "";
+	context.beginPath();
+    context.arc(centerX$, centerY$, radius$, 0, 2 * Math.PI, false);
+    context.lineWidth = cLineWidth$;
+    context.strokeStyle = cColor$;
+    context.stroke();
+!end circle
+
+!begin rectangle
+#rectangle
+	var rectangleX$ = "";
+	var rectangleY$ = "";
+	var rectangleWidth$ = "";
+	var rectangleHeight$ = "";
+	var rectangleStroke$ = "";
+	var rectangleColor$  = "";
+	context.beginPath();
+    context.rect(rectangleX$, rectangleY$, rectangleWidth$, rectangleHeight$);
+    context.lineWidth = rectangleStroke$;
+    context.strokeStyle = rectangleColor$;
+    context.stroke();
+!end rectangle
+
+!no code blocks should come after closeOnload
+#closeOnload
+}
+</script>
+</body>
+</html>

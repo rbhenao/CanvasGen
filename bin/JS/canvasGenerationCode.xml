@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='us-ascii'?> 
+<canavas>
+	<windowLoad>
+		window.onload = function() {
+		var canvasName = "canvasName";
+		var canvasWidth = 500;
+		var canvasHeight = 500;
+	</windowLoad>
+
+	<canvasState>
+		<!-- properties of the canvas
+		name height width etc... -->
+
+	</canvasState>
+
+	<canvasObjects>
+		<!-- all the objects that can be made on the canvas-->
+		<freeDraw>
+
+		</freeDraw>
+
+		<circle>
+
+		</circle>
+
+		<rectangle>
+
+		</rectangle>
+	</canvasObjects>
+
+	<windowClose>
+		}
+	</windowClose>
+</canvas>
+
+
