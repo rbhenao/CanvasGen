@@ -4,7 +4,7 @@
   
 ## Development
 
- git clone [https://github.com/mfgryan/canvasgen.git](https://github.com/mfgryan/canvasgen.git)
+ **`git clone [https://github.com/mfgryan/canvasgen.git](https://github.com/mfgryan/canvasgen.git)`**
  
  Java source code is under **`src/canvasgen/app`**
  
