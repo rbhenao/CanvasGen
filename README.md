@@ -1,6 +1,6 @@
 # CanvasGen
 
-  A Java app for rendering JavaScript [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) elements.
+  A Java app for rendering [JavaScript Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) elements.
   
 ## Development
 
