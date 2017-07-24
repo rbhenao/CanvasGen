@@ -15,6 +15,8 @@ The compiled code is under **`bin/canvasgen/app`**
 ## Demo
 
 Use the jar file **`java -jar CanvasGen.jar`** to run the app
+
+![Demo.png](https://raw.githubusercontent.com/mfgryan/CanvasGen/master/Demo.png)
   
 
 ## Questions?
