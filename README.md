@@ -7,6 +7,14 @@
 ## Development
 
 To work on this app clone **`git clone https://github.com/mfgryan/canvasgen.git`**
+
+Java source code is under **`src/canvasgen/app`**
+
+The compiled code is under **`/bin/canvasgen/app`**
+
+## Demo
+
+Use the jar file **`java -jar CanvasGen.jar`** to run the app
   
 
 ## Questions?
