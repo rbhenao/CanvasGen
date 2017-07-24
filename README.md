@@ -4,12 +4,11 @@
   
 ## Development
 
- > **`git clone https://github.com/mfgryan/canvasgen.git`**
+ **`git clone https://github.com/mfgryan/canvasgen.git`**
  
- > Java source code is under **`src/canvasgen/app`**
+ Java source code is under **`src/canvasgen/app`**
  
- > The compiled code is under **`bin/canvasgen/app`**
-
+ The compiled code is under **`bin/canvasgen/app`**
 
 ## Demo
 
