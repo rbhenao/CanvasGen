@@ -23,7 +23,7 @@ width='600' alt='demo image'/>
   #### Contact
   - email [henao@henserver.com](http://www.henserver.com)
   - linkedin [linkedin.com/in/ryan-henao-4173917b](https://www.linkedin.com/in/ryan-henao-4173917b/)
-  - website [henserver](http://www.henserver.com)
+  - website [henserver.com](http://www.henserver.com)
 
   #### Author
   Ryan Henao
